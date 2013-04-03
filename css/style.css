@@ -1,0 +1,48 @@
+body {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+}
+#wrap {
+	margin: 30px;
+} 
+
+
+
+/* Datagrid */
+.xlsgrid {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+.xlsgrid th {
+	color: #313131;
+	font-weight: normal;
+	padding: 5px;
+	border: 1px solid #a1a1a1;
+	background-color: #d1d1d1;
+	text-align: center;
+}
+.xlsgrid th img {
+	margin-left: 10px;
+}
+.xlsgrid td {
+	margin: 0;
+	padding: 5px;
+	border: 1px solid #d7d7d7;
+}
+.xlsgrid tr:hover td {
+	background-color: #313131;
+	border-color: #000;
+	color: #fff;
+}
+.xlsgrid td.green {
+	color: #48a709;
+}
+.xlsgrid td.red {
+	color: #de1818;
+}
+.xlsgrid td.blue {
+	color: #286ec4;
+}

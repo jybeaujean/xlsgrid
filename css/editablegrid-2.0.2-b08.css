@@ -1,0 +1,25 @@
+/*
+ * editablegrid-2.0.2-b08.css
+ * 
+ * This file is part of EditableGrid.
+ * http://www.editablegrid.net
+ *
+ * Copyright (c) 2012 Webismymind SPRL
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://www.editablegrid.net/page/en/9/license.html
+ */
+
+td.number {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 5px; 
+	white-space: nowrap;
+}
+
+td.boolean {
+	text-align: center;
+}
+
+th.boolean {
+	text-align: center;
+}
